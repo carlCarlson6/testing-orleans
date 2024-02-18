@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/carlosad/DEV/testing-orleans/TestingOrleans.UptashCloneWebApp/TestingOrleans.UptashCloneWebApp.csproj": {}
+  },
+  "projects": {
+    "/Users/carlosad/DEV/testing-orleans/TestingOrleans.UptashCloneWebApp/TestingOrleans.UptashCloneWebApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/carlosad/DEV/testing-orleans/TestingOrleans.UptashCloneWebApp/TestingOrleans.UptashCloneWebApp.csproj",
+        "projectName": "TestingOrleans.UptashCloneWebApp",
+        "projectPath": "/Users/carlosad/DEV/testing-orleans/TestingOrleans.UptashCloneWebApp/TestingOrleans.UptashCloneWebApp.csproj",
+        "packagesPath": "/Users/carlosad/.nuget/packages/",
+        "outputPath": "/Users/carlosad/DEV/testing-orleans/TestingOrleans.UptashCloneWebApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/carlosad/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Orleans.Client": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "Microsoft.Orleans.Clustering.AzureStorage": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "Microsoft.Orleans.Core": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "Microsoft.Orleans.Persistence.AzureStorage": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "Microsoft.Orleans.Reminders.AzureStorage": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "Microsoft.Orleans.Sdk": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            },
+            "Microsoft.Orleans.Server": {
+              "target": "Package",
+              "version": "[7.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

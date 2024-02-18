@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/TestingOrleans.UptashCloneWebApp.props" />
+</Project>
